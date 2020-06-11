@@ -24,10 +24,17 @@ steps:
 - task: CmdLine@2
   inputs:
     script: |
+
+      npm install async
+
       cd android
+
+      npm install async
+
       
       mvn -U clean install 
       mvn compile
 
       mvn test -P single
+
 - task: BrowserStackResults@0
