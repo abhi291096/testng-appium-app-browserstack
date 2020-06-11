@@ -29,6 +29,7 @@ steps:
       npm install glob
       npm install vsts-task-lib
       npm install azure-pipelines-task-lib
+      npm install xml2js
 
       cd android
 
@@ -36,6 +37,7 @@ steps:
       npm install glob
       npm install vsts-task-lib
       npm install azure-pipelines-task-lib
+      npm install xml2js
 
 
 
