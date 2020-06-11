@@ -27,3 +27,6 @@ steps:
       cd android
       
       mvn compile
+
+      mvn test -P single
+- task: BrowserStackResults@0
