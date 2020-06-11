@@ -27,13 +27,16 @@ steps:
 
       npm install async
       npm install glob
-      npm install vsts-task-lib/task
+      npm install vsts-task-lib
+      npm install azure-pipelines-task-lib
 
       cd android
 
       npm install async
       npm install glob
-      npm install vsts-task-lib/task
+      npm install vsts-task-lib
+      npm install azure-pipelines-task-lib
+
 
 
       
