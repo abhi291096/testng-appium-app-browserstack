@@ -29,5 +29,5 @@ steps:
       mvn -U clean install 
       mvn compile
 
-      # mvn test -P single
-# - task: BrowserStackResults@0
+      mvn test -P single
+- task: BrowserStackResults@0
