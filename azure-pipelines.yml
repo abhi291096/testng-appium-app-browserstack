@@ -26,6 +26,7 @@ steps:
     script: |
       cd android
       
+      mvn clean 
       mvn compile
 
       mvn test -P single
