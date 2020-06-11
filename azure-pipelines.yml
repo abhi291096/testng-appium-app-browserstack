@@ -26,10 +26,12 @@ steps:
     script: |
 
       npm install async
+      npm install glob
 
       cd android
 
       npm install async
+      npm install glob
 
       
       mvn -U clean install 
